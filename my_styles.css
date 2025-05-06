@@ -1,0 +1,70 @@
+
+body
+{
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 150px;
+margin-left: 80px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #018a94;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #06c4aa;
+    display: block;
+    position: absolute;
+    right: 1;
+    top: 0;
+  }
+  
+  /* Add a yellow background color on mouse-over */
+  .topnav a:hover {
+    background-color: #fcffd8;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Style the active link (or home/logo)*/
+  .active {
+    background-color: #06c4aa;
+    color: white;
+  }
+
+  /* Style of the table on dig_draw_app.html*/
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+  th{
+    background-color: #06c4aa;
+    color: white;
+ }
+
+ th, td {
+    padding: 15px;
+    text-align: left;
+  }
